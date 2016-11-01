@@ -39,5 +39,15 @@ VALUES  ( @Code ,
         )";
             return DatabaseHelper<SqlConnection>.ExecuteNonQuery(ConnectionStr, sql, users);
         }
+        /// <summary>
+        /// 根据部门id获取次部门的员工
+        /// </summary>
+        /// <param name="departments"></param>
+        /// <returns></returns>
+        public List<User> GetUsersByDepartmentIds(List<int> departments)
+        {
+            string sql = @"select * from DeviceUser where departmentid in @ids";
+            return DatabaseHelper<SqlConnection>.Query<User>(ConnectionStr, sql, new {ids = departments}).ToList();
+        }
     }
 }

@@ -31,5 +31,15 @@ VALUES  ( @DepartmentName ,
         )";
             return DatabaseHelper<SqlConnection>.ExecuteNonQuery(ConnectionStr, sql, departments);
         }
+        /// <summary>
+        /// 查询前N条部门信息
+        /// </summary>
+        /// <param name="top">前N条</param>
+        /// <returns></returns>
+        public List<Department> GetTopDepartments(int top)
+        {
+            string sql = "select top " + top + " * from Department where deletetag=0";
+            return DatabaseHelper<SqlConnection>.Query<Department>(ConnectionStr, sql).ToList();
+        }
     }
 }
