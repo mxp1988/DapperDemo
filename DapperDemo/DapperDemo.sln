@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dao", "Dao", "{496B3422-79B2-4D90-AD71-912E56760797}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{BA6B2864-BB5B-4CCD-89BD-43E179A111B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{A90CF7E6-F1A9-4E24-9C7E-AEE09AF38378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mxp1988.DapperDemo.Dao", "mxp1988.DapperDemo.Dao\mxp1988.DapperDemo.Dao.csproj", "{AEF4D25D-6FB3-4701-B085-E5F507A94CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mxp1988.DapperDemo.Models", "mxp1988.DapperDemo.Models\mxp1988.DapperDemo.Models.csproj", "{F8A6ABB6-AFB2-4209-B5E8-BAC45F356899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mxp1988.DapperDemo.UnitTest", "mxp1988.DapperDemo.UnitTest\mxp1988.DapperDemo.UnitTest.csproj", "{D7667DC0-E2BB-47FC-80B1-9024EAE46637}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEF4D25D-6FB3-4701-B085-E5F507A94CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF4D25D-6FB3-4701-B085-E5F507A94CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF4D25D-6FB3-4701-B085-E5F507A94CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF4D25D-6FB3-4701-B085-E5F507A94CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A6ABB6-AFB2-4209-B5E8-BAC45F356899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A6ABB6-AFB2-4209-B5E8-BAC45F356899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A6ABB6-AFB2-4209-B5E8-BAC45F356899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A6ABB6-AFB2-4209-B5E8-BAC45F356899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7667DC0-E2BB-47FC-80B1-9024EAE46637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7667DC0-E2BB-47FC-80B1-9024EAE46637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7667DC0-E2BB-47FC-80B1-9024EAE46637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7667DC0-E2BB-47FC-80B1-9024EAE46637}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEF4D25D-6FB3-4701-B085-E5F507A94CA0} = {496B3422-79B2-4D90-AD71-912E56760797}
+		{F8A6ABB6-AFB2-4209-B5E8-BAC45F356899} = {BA6B2864-BB5B-4CCD-89BD-43E179A111B4}
+		{D7667DC0-E2BB-47FC-80B1-9024EAE46637} = {A90CF7E6-F1A9-4E24-9C7E-AEE09AF38378}
+	EndGlobalSection
+EndGlobal
